@@ -1,0 +1,67 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+.img1, .img2 , .img3, .img4{
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+.img1{
+    background-image: url(/images/avengerwall.jpg);
+    min-height: 950px;
+}
+.img2{
+    background-image: url(/images/ironman.jpeg);
+    min-height: 400px;
+}
+.img3{
+    background-image: url(/images/hulk.jpg);
+    min-height: 400px;
+}
+.img4{
+    background-image: url(/images/ca.jpg);
+    min-height: 950px;
+}
+.one, .two , .three{
+    text-align: center;
+    padding: 50px 80px;
+}
+.one{
+    background-color: rgb(255, 104, 104);
+    color: white;
+}
+.two{
+    background-color: rgb(182, 255, 182);
+}
+.three{
+    background-color: rgba(101, 101, 241, 0.521);
+    color: white;
+}
+.header{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.img1 .header .border {
+    background-color: black;
+    padding: 40px;
+}
+@media(max-width:568px){
+    .img1, .img2, .img3, .img4{
+        background-attachment: scroll;
+    }
+}
