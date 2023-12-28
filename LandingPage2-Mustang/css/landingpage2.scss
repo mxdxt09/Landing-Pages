@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 26, 0.6),rgba(0, 0, 26, 0.6)),url(/images/wallpaperbetter.com_1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    padding: 150px;
+    text-align: center;
+}
+.head{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+.head1{
+    text-align: center;
+    opacity: 80%;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.btn{
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background: none;
+    opacity: 70%;
+    cursor: pointer;
+    &:hover{
+        color: white;
+        transition: 0s;
+        background: #28003f ;
+        font-size: 15px;
+        font-weight: bolder;
+        box-shadow: 0px 3px 10px 3px #c98bec;
+    }
+}
+.para{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    text-align: center;
+
+}
+.head2{
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.info{
+    margin: 10px;
+    width: 70%;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    column-count: 2;
+    column-gap: 70px;
+    display: inline-block;
+    padding: 35px;
+    text-align: justify;
+}
+.colors{
+    background: #28003f;
+    color: aliceblue;
+    display: grid;
+    list-style: none;
+    padding: 2em 1em 1em;
+}
+.container ul li{
+    background:#f4e1ff;
+    display: list-item;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px 30px;
+    width: 15%;
+}
+.container ul{
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+}
+.card{
+    display: block;
+    margin: 30px;
+    list-style: none;
+    align-items: center;
+    img{
+        display: block;
+        width: 100%;
+        height: 25%;
+        object-fit: cover;
+    }
+}
+.about1{
+    padding: 30px;
+    list-style:none;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.head3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+.descrp{
+    display: inlin-block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 20px;
+    width: 80%;
+    transform: translate(10%,0);
+}
+.contact{
+    display: table;
+}
+.contactus{
+    margin: 0;
+    padding-top:30px;
+    text-align: center;
+    display: table-cell;
+    width: 50%;
+    height: auto;
+    background: #f4e1ff;
+    font-family: 'Roboto', sans-serif;
+}
+.car{
+    text-align: center;
+    display: table-cell;
+    width: 50%;
+    height: auto;
+    background: #28003f;
+    color: white;
+    padding: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.head4{
+    padding: 10px;
+    font-size: 35px;
+}
+.head5{
+    padding: 20px;
+    font-size: 35px;
+}
+.gmail{
+    color: rgb(108, 108, 255);
+    font-style: italic;
+    padding: 5px;
+    cursor: pointer;
+}
+.us{
+    width: 100%;
+    background: black;
+    display: table;
+}
+.name{
+    text-align: center;
+    width: 50%;
+    display: table-cell;
+    height: auto;
+    padding: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.proj{
+    text-align: center;
+    width: 50%;
+    display: table-cell;
+    padding: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    span{
+        color: #c98bec;
+    }
+}
